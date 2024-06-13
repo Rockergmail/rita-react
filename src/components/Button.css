@@ -1,0 +1,8 @@
+/*缺点，没有scoping, have to use BEM to namespacing*/
+/* TODO: 去看看 module css  和 css in js*/
+
+#clockbutton {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}

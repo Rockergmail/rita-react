@@ -1,3 +1,10 @@
+/*
+ * @description:
+ * @author: xiangrong.liu
+ * @Date: 2024-06-01 10:58:45
+ * @LastEditors: xiangrong.liu
+ * @LastEditTime: 2024-06-13 16:18:15
+ */
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
@@ -17,6 +24,7 @@ function App() {
   const [count, setCount] = useState(0);
   const [str, setStr] = useState("hekki");
   const fruits = ["apple", "boy", "cat"];
+  let fuck = "1";
   return (
     <>
       <MyForm3></MyForm3>
